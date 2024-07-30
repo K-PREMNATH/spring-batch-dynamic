@@ -50,3 +50,19 @@ public class DetailItemWriter implements ItemWriter<Item> {
         // Add more formatted fields as needed
     }
 }
+
+INSERT INTO springbatchdb.t_wage_req (ID, REQ_ID, CUSTOMER_ID) VALUES (1, 'CPD', 1);
+INSERT INTO springbatchdb.t_wage_req (ID, REQ_ID, CUSTOMER_ID) VALUES (2, 'CPD', 2);
+INSERT INTO springbatchdb.t_wage_req (ID, REQ_ID, CUSTOMER_ID) VALUES (3, 'CPP', 3);
+
+
+INSERT INTO springbatchdb.t_wage (ID, pd_mth, wage_amount, CUSTOMER_ID) VALUES (1, 1, 100, 1);
+INSERT INTO springbatchdb.t_wage (ID, pd_mth, wage_amount, CUSTOMER_ID) VALUES (2, 2, 200, 2);
+INSERT INTO springbatchdb.t_wage (ID, pd_mth, wage_amount, CUSTOMER_ID) VALUES (3, 3, 300, 3);
+INSERT INTO springbatchdb.t_wage (ID, pd_mth, wage_amount, CUSTOMER_ID) VALUES (4, 4, 400, 1);
+INSERT INTO springbatchdb.t_wage (ID, pd_mth, wage_amount, CUSTOMER_ID) VALUES (5, 5, 500, 2);
+INSERT INTO springbatchdb.t_wage (ID, pd_mth, wage_amount, CUSTOMER_ID) VALUES (6, 6, 600, 1);
+INSERT INTO springbatchdb.t_wage (ID, pd_mth, wage_amount, CUSTOMER_ID) VALUES (7, 7, 700, 1);
+
+
+
