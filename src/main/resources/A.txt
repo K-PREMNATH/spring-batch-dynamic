@@ -1,0 +1,18 @@
+create table T_WAGE_REQ
+(
+   ID          int not null,
+   REQ_ID      varchar(5) null,
+   CUSTOMER_ID int null,
+   constraint T_WAGE_REQ_pk
+       primary key (ID)
+);
+
+create table T_WAGE
+(
+   ID          int not null,
+   pd_mth      int null,
+   wage_amount  double,
+   CUSTOMER_ID int null,
+   constraint T_WAGE_REQ_pk
+       primary key (ID)
+);
